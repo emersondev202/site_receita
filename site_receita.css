@@ -3,6 +3,44 @@
     padding: 0px;
 }
 img{
-    width: 250px;
-    height: 200px;
+    width: 225px;
+    height: 175px;
+}
+.conteiner{
+    display: flex;
+    width: 550px;
+}
+.conteiner-conteudo{
+    width: 275px;
+    
+}
+.receitas > h2{
+    display: block;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.preparo{
+    width: 525px;
+    padding-left: 20px;
+    
+}
+.receitas{
+    border: 2px solid black;
+    width: 550px;
+    height: 550px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+.caixa-flex{
+    display: flex;
+}
+div p{
+    padding-bottom: 3px;
+}
+div ul li{
+    padding: 2px 0px;
+    margin-left: 10px;
+    
 }
