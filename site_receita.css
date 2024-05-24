@@ -3,16 +3,17 @@
     padding: 0px;
 }
 img{
-    width: 225px;
-    height: 175px;
+    width: 300px;
+    height: 200px;
 }
 .conteiner{
     display: flex;
-    width: 550px;
-}
-.conteiner-conteudo{
-    width: 275px;
+    width: 100vw;
+    padding: 10px;
     
+}
+.conteiner-img{
+    width: 30vw;
 }
 .receitas > h2{
     display: block;
@@ -24,17 +25,15 @@ img{
     padding-left: 20px;
     
 }
+.ingredientes{
+    width: 25vw;
+}
 .receitas{
     border: 2px solid black;
-    width: 550px;
-    height: 550px;
     margin: 5px;
     padding: 5px;
     border-radius: 10px;
 
-}
-.caixa-flex{
-    display: flex;
 }
 div p{
     padding-bottom: 3px;
