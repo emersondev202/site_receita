@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -8,12 +9,13 @@ img{
 }
 .conteiner{
     display: flex;
-    width: 100vw;
+    width: 95vw;
     padding: 10px;
     
 }
 .conteiner-img{
     width: 30vw;
+    
 }
 .receitas > h2{
     display: block;
@@ -21,7 +23,7 @@ img{
     padding-bottom: 5px;
 }
 .preparo{
-    width: 525px;
+    width: 450px;
     padding-left: 20px;
     
 }
@@ -35,6 +37,70 @@ img{
     border-radius: 10px;
 
 }
+.cabeçario{
+    display: flex;
+    padding: 15px 0px 15px 0px;
+    background: linear-gradient(to right,orange,white);
+}
+.cabeçario h1{
+    padding-left: 20vw;
+    font-family: "Sansita Swashed", system-ui;
+
+}
+.cabeçario input{
+    width: 250px;
+    padding-left: 5px;
+    margin-left: 3vw;
+    border-radius: 10px 0px 0px 10px;
+    border: solid 1px rgb(250, 138, 0);
+}
+.cabeçario button{
+    border-radius: 0px 10px 10px 0px;
+    padding: 5px;
+    border: solid 5px rgb(250, 138, 0);
+    background-color: rgb(250, 138, 0);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+.opções{
+    width: 98vw;
+    background: linear-gradient(to right,orange,white);
+}
+.opções > ul{
+    display: flex;
+    padding: 0% 22%;
+}
+.opções ul li{
+    padding:10px 15px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+.opções ul a{
+    text-decoration: none;
+    color: black;
+}
+.fa-solid{
+    font-size: 30px;
+    width: 30px;
+    padding: 8px 5px 8px 8px;
+    margin: 0px 0px 0px 50px;
+    color: white;
+    background-color: rgb(250, 138, 0);
+    border-radius: 50%;
+}
+.fa-solid:hover{
+    color: black;
+    transition: 0.8s;
+}
+.opções ul li:hover{
+    background-color: rgb(250, 138, 0);
+    color: white;
+    border-radius: 20px;
+    transition: 0.8s;
+
+}
 div p{
     padding-bottom: 3px;
 }
@@ -42,4 +108,9 @@ div ul li{
     padding: 2px 0px;
     margin-left: 10px;
     
+}
+main h1{
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-family: "Sansita Swashed", system-ui;
 }
