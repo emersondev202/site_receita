@@ -6,6 +6,7 @@
 img{
     width: 300px;
     height: 200px;
+    margin-bottom: 10px;
 }
 .conteiner{
     display: flex;
@@ -15,12 +16,12 @@ img{
 }
 .conteiner-img{
     width: 30vw;
-    
 }
 .receitas > h2{
     display: block;
     text-align: center;
     padding-bottom: 5px;
+    font-family: "Sansita Swashed", system-ui;
 }
 .preparo{
     width: 450px;
@@ -31,10 +32,10 @@ img{
     width: 25vw;
 }
 .receitas{
-    border: 2px solid black;
+    border-bottom: 2px solid black;
     margin: 5px;
     padding: 5px;
-    border-radius: 10px;
+    
 
 }
 .cabeçario{
@@ -99,7 +100,20 @@ img{
     color: white;
     border-radius: 20px;
     transition: 0.8s;
-
+}
+.video{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: black;
+    border-radius: 10px;
+}
+.video:hover{
+    color: black;
+    background-color: white;
+    transition: 0.8s;
 }
 div p{
     padding-bottom: 3px;
@@ -109,8 +123,14 @@ div ul li{
     margin-left: 10px;
     
 }
+body{
+    background: linear-gradient(to right,orange,white);
+}
 main h1{
     text-align: center;
     padding: 10px 0px 10px 0px;
     font-family: "Sansita Swashed", system-ui;
+}
+strong{
+    font-size: 18px;
 }
